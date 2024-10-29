@@ -562,7 +562,21 @@ video {
   width: 2.5rem;
 }
 
-.bg-red-500 {
+.w-\[500px\] {
+  width: 500px;
+}
+
+.bg-\[\#afafaf\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(175 175 175 / var(--tw-bg-opacity));
+}
+
+.group.on .group-on\:bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.on.on\:bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
